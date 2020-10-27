@@ -1,0 +1,24 @@
+#stats {
+    padding: 2vh 0;
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+}
+
+#stats li {
+    width: 50%;
+    padding: 0 5px 0px;
+}
+
+#stats li > .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#stats li:first-child {
+    box-shadow: 1px 0px 0px#BFBFBF;
+}
+#stats li:last-child {
+    box-shadow: -1px 0px 0px #bfbfbf;
+}

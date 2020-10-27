@@ -1,0 +1,9 @@
+#main {
+    display: flex;
+    flex-grow: 1;
+    background: -moz-linear-gradient(45deg, #4dd0cd, #ffb2a2);
+}
+#main > .container {
+    position: relative;
+    flex-grow: 1;
+}

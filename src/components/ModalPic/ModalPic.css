@@ -1,0 +1,9 @@
+.modalPic {
+    position: absolute;
+    right: 2vw;
+    bottom: 2vh;
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    background: url(./catlogo.png) no-repeat 50% 50% / 100%;
+}

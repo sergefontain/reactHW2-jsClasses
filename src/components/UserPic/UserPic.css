@@ -1,0 +1,7 @@
+#userPic {
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    background: url(./252.png) no-repeat 50% 50% / 100%;
+}

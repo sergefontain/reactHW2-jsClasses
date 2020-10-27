@@ -1,0 +1,42 @@
+#footer {
+    padding: 1vh;
+    display: flex;
+    flex-direction: row;
+}
+
+#footer .leftSide {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#footer .rightSide {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+#footer .rightSide #emptySlot,
+#footer .rightSide #contacts {
+    width: 50%;
+}
+#footer .rightSide #contacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+#footer .leftSide #info span:first-child {
+    padding-left: 20px;
+}
+
+#footer .leftSide #info span:last-child {
+    padding-left: 5px;
+}
+
+#footer .leftSide #footerPic {
+    width: 88px;
+    height: 24px;
+    background: url(./310.png) no-repeat 50% 50% / 100%;
+}
